@@ -1,6 +1,6 @@
-no_of_people=int(input())
-total_bill=int(input())
-tip=int(input())
+no_of_people=int(input("enter no of people:"))
+total_bill=int(input("enter total bill:"))
+tip=int(input("tip wants to provide"))
 tip_amount=total_bill*(tip/100)
 final=total_bill+tip_amount
 each_person=final/no_of_people
