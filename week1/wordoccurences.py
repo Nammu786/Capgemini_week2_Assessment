@@ -1,6 +1,5 @@
 str=input("Enter a sentence: ").split()
 result={}
-count=0
 for s in str:
     s=s.lower()
     if s in result:
